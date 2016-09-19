@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_event_note"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/ic_assignment_24dp"
+            android:title="Assignment" />
+        <item
+            android:id="@+id/nav_subject"
+            android:icon="@drawable/ic_create_24dp"
+            android:title="Subject" />
+        <item
+            android:id="@+id/nav_kuwin"
+            android:icon="@drawable/ic_wifi_tethering_24dp"
+            android:title="KUWIN Tools" />
+        <item
+            android:id="@+id/nav_knowbita"
+            android:icon="@drawable/ic_phonelink_24dp"
+            android:title="Knowbita" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="Settings" />
+    </group>
+
+
+</menu>
